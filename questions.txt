@@ -1,0 +1,10 @@
+What are the main challenges of parallel computing?
+What are the benefits of parallel computing?
+what are the different types of parallel computing?
+What does a vector machine do that allows it gain a speed-up?
+List the four categories of parallel processing architectures defined by Flynn's taxonomy?
+Using an example describe the process of piplining and the potential benefits.
+What is a Deadlock?
+What is a Livelock?
+List <some> ways to to ensure that a Deadlock does not occur.
+Is there a way to prove whether or not a deadlock will or will not occur?
