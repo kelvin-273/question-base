@@ -78,10 +78,7 @@ showQuestions = do
 showHashes = do
     readFile "questions.txt" >>= (mapM_ putStrLn) . mappad . map (toHex . hash) . lines
     menu choices_main where
-        mappad :: [String] -> [String]
-        -- mappad = id -- for now
-        mappad ls = map (\i -> (++) $ replicate (maxLength ls - length i) '0') ls
-        maxLength :: [String] -> Int
+        mappad ls = map (\i -> replicate (maxLength ls - length i) '0' ++ i) ls
         maxLength = foldl max 0 . map length
 
 toHex :: Int -> String
