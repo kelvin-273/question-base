@@ -4,6 +4,8 @@ import Data.Hashable    (hash)
 import Numeric          (showHex)
 import Menu
 
+type State = [[[String]]]
+
 main :: IO ()
 main = do
     -- dbExists <- doesFileExist "questions.txt"
@@ -44,5 +46,9 @@ toHex n
     | n >= 0    = flip showHex "" n
     | otherwise = flip showHex "" $ designed n where
         designed n = (2 * (1 + toInteger (maxBound :: Int))) + toInteger (n :: Int)
+
+showQuestions' state = do
+    mapM_ (putStrLn . head) . concat $ state
+    menu choices_main
 
 quit = putStrLn "Good Day"
