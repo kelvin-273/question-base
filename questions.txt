@@ -18,3 +18,9 @@ What problem of the Lamport sync does the Vector clock solve and how?
 In the lecture notes, does the proceedure for VC advancement of p_i double increments for the V[i]?
 What is a critical section?
 What are the advantages and disadvantages of the centralised MUTEX algorithm?
+
+What is a transaction?
+Is there a difference between an atomic transaction and any other transaction?
+What does the ACID acronym stand for? Give a sentence explaining each.
+Why is it harder to maintain the ACID rules for nested transactions than it is for simple transactions?
+What was the thing that waas really like git???
