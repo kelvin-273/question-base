@@ -9,3 +9,12 @@ What is a Livelock?
 List <some> ways to to ensure that a Deadlock does not occur.
 Is there a way to prove whether or not a deadlock will or will not occur?
 What is MUTEX?
+In the Averaging Algorithm, how does each process determine its local time?
+In the Berkeley Algorithm, how is the RTT taken into account?
+What are the main differences between a Logical clock and a Physical clock?
+In what cases would it be beneficial to use logical clocks instead of physical?
+Does C(A) < C(B) => A -> B, Why or why not?
+What problem of the Lamport sync does the Vector clock solve and how?
+In the lecture notes, does the proceedure for VC advancement of p_i double increments for the V[i]?
+What is a critical section?
+What are the advantages and disadvantages of the centralised MUTEX algorithm?
