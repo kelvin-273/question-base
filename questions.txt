@@ -24,3 +24,22 @@ Is there a difference between an atomic transaction and any other transaction?
 What does the ACID acronym stand for? Give a sentence explaining each.
 Why is it harder to maintain the ACID rules for nested transactions than it is for simple transactions?
 What was the thing that waas really like git???
+List 3 typical concurrency algorithms.
+What is the difference between concurrency and parallelism?
+What is concurrency?
+What are the benefits of using lock for concurrency control as opposed to other control mechanisms?
+How can the locking algorithm be improved?
+What are the two main types of conflict that can occur when dealing with shared resources?
+Do the use of locks guarantee serialisability and why or why not?
+What is the two-phase lock protocol?
+what do you do if the transaction aborts after releasing some but not all of the locks in the two-phase lock protocol?
+What the fuck is going on in that picture about cascading aborts?
+What is the difference between the Strict and normal Two-Phase Locking Protocol?
+How does timestamp concurrency control work?
+How does timestamp concurrency control ensure the absence of deadlocks?
+does timestamp concurrency control follow the ACID ruleset?
+How does optimistic concurrency control work?
+In slide 48 of week 5, how does the reading and the writing work?
+
+
+
