@@ -56,5 +56,16 @@ What kind of consistency model is used in openMP?
 What consequences does this yeild for the job of the programer.
 How would you compile a program.c that uses openMP?
 What's GP about GPGPU?
+What is data-parallelism?
+List the main limitations of GPGPU computing.
+What is rasterization-nased rendering
 
 
+What is a kernel?
+How does does pipelining for each kernal affect the performance?
+What is the steam processing model?
+What are the two important stream data characteristics and why are they important?
+In what circumstances would GPU computing be beneficial?
+list at least 3 notable stream programming languages?
+List 6 GPGPU programming techniques and describe what each one does?
+how can the reduce operation be parallelised?

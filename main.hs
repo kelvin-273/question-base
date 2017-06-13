@@ -17,8 +17,9 @@ main = do
 choices_main :: [Choice]
 choices_main =
     [ ("a", "Add a question", addQuestion)
-    , ("sq", "Show questions", showQuestions)
-    , ("sh", "Show hashes", showHashes)
+    , ("s", "Show questions", showQuestions)
+    , ("l", "Show number of questions", showLenQuestions)
+    , ("h", "Show hashes", showHashes)
     , ("q", "Quit", quit) ]
 
 
@@ -33,6 +34,10 @@ showQuestions = do
     -- mapM_ putStrLn ls
     readFile "questions.txt" >>= return . lines >>= (mapM_ putStrLn)
     -- readFile "questions.txt" >>= (mapM_ putStrLn) . lines
+    menu choices_main
+
+showLenQuestions = do
+    readFile "questions.txt" >>= return . show . length . lines >>= putStrLn
     menu choices_main
 
 showHashes = do
