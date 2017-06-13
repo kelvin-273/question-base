@@ -23,7 +23,7 @@ What is a transaction?
 Is there a difference between an atomic transaction and any other transaction?
 What does the ACID acronym stand for? Give a sentence explaining each.
 Why is it harder to maintain the ACID rules for nested transactions than it is for simple transactions?
-What was the thing that waas really like git???
+What was the thing that was really like git???
 List 3 typical concurrency algorithms.
 What is the difference between concurrency and parallelism?
 What is concurrency?
@@ -40,6 +40,21 @@ How does timestamp concurrency control ensure the absence of deadlocks?
 does timestamp concurrency control follow the ACID ruleset?
 How does optimistic concurrency control work?
 In slide 48 of week 5, how does the reading and the writing work?
-
+Particularlly in the second example, is the slidemaker high?
+What are the advantages and disadvantages of optimism? ;)
+Give a description of the general concept of PVMs.
+Is MPI a PVM and why?
+What is a pvmd daemon?
+What is the LINDA Model
+Do you need shared physical memory in the LINDA model?
+When would you use the LINDA models as opposed to the PVM?
+List the 3 main OpenMP components?
+With the use of a diagram, describe the fork join programming model usd in openMP.
+Is it possible to perform nested paralellism with OpenMP
+what are the differences between OpenMP and OpenMPI
+What kind of consistency model is used in openMP?
+What consequences does this yeild for the job of the programer.
+How would you compile a program.c that uses openMP?
+What's GP about GPGPU?
 
 
