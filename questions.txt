@@ -69,3 +69,11 @@ In what circumstances would GPU computing be beneficial?
 list at least 3 notable stream programming languages?
 List 6 GPGPU programming techniques and describe what each one does?
 how can the reduce operation be parallelised?
+What is defined as a Fault?
+what are some strategies for building fault tolerant systems
+What is distributed consensus?
+What are the four main aspects we look at when building fault-tolerant systems? (ARSM)
+What is the difference between total and partial faliure?
+List the major classes of failiures. Give descriptions of each.
+Is there a difference in consequence of a crash failiure between synchronous and asynchronous systems?
+What is a Byzantine failiure? (hint it's really vague... like really vague!)
